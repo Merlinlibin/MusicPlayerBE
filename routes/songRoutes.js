@@ -7,7 +7,7 @@ const multer = require("multer");
 const { CloudinaryStorage } = require("multer-storage-cloudinary");
 const cloudinary = require("cloudinary").v2;
 
-// Configure Cloudinary
+// Configure Cloudinary for uploading
 cloudinary.config({
   cloud_name: "dewfjhlh5",
   api_key: "471568196615338",
